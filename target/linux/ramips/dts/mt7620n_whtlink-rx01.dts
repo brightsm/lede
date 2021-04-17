@@ -24,19 +24,19 @@
 		compatible = "gpio-leds";
 
 		led_power: power {
-			label = "RX-01:blue:power";
+			label = "RX01:blue:power";
 			gpios = <&gpio1 14 GPIO_ACTIVE_LOW>;
 		};
 
 		usb {
-			label = "RX-01:blue:usb";
+			label = "RX01:blue:usb";
 			gpios = <&gpio1 15 GPIO_ACTIVE_HIGH>;
 			trigger-sources = <&ohci_port1>, <&ehci_port1>;
 			linux,default-trigger = "usbport";
 		};
 
 		air {
-			label = "RX-01:blue:air";
+			label = "RX01:blue:air";
 			gpios = <&gpio3 0 GPIO_ACTIVE_LOW>;
 		};
 	};
