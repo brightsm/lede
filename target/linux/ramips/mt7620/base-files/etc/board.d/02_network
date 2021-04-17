@@ -84,6 +84,7 @@ ramips_setup_interfaces()
 	glinet,gl-mt750|\
 	hiwifi,hc5661|\
 	wrtnode,wrtnode|\
+	whtlink,wht-rx01|\
 	zbtlink,zbt-wa05|\
 	zyxel,keenetic-omni-ii)
 		ucidef_add_switch "switch0" \
