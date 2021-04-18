@@ -253,6 +253,7 @@ ramips_setup_macs()
 	sanlinking,d240|\
 	vonets,var11n-300|\
 	wrtnode,wrtnode|\
+	whtlink,wht-rx01|\
 	youku,yk1|\
 	zbtlink,zbt-ape522ii|\
 	zbtlink,zbt-wa05|\
