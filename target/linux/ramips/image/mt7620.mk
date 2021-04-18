@@ -1095,7 +1095,7 @@ define Device/yukai_bocco
 endef
 TARGET_DEVICES += yukai_bocco
 
-define Device/whtlink_rx01
+define Device/whtlink_wht-rx01
   SOC := mt7620n
   IMAGE_SIZE := 7872k
   DEVICE_VENDOR := whtlink
