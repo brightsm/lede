@@ -29,7 +29,8 @@ ramips_setup_interfaces()
 	zbtlink,zbt-ape522ii|\
 	zbtlink,zbt-we826-16m|\
 	zbtlink,zbt-we826-32m|\
-	zbtlink,zbt-we826-e|\	
+	zbtlink,zbt-we826-e|\
+	zbtlink,zbt-wr8305rt|\
 	zyxel,keenetic-omni)
 		ucidef_add_switch "switch0" \
 			"0:lan" "1:lan" "2:lan" "3:lan" "4:wan" "6@eth0"
@@ -84,8 +85,7 @@ ramips_setup_interfaces()
 	hiwifi,hc5661|\
 	wrtnode,wrtnode|\
 	whtlink,wht-rx01|\
-	zbtlink,zbt-wa05|\
-	zbtlink,zbt-wr8305rt|\
+	zbtlink,zbt-wa05|\	
 	zyxel,keenetic-omni-ii)
 		ucidef_add_switch "switch0" \
 			"1:lan" "2:lan" "3:lan" "4:lan" "0:wan" "6@eth0"
